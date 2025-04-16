@@ -26,7 +26,7 @@ function resetGameState() {
   updateAttempts();
   resetBtn.classList.add("hidden");
   loadQuestion(); // Load a fresh question
-}
+}//added a reset game button
 
 // Before (inline logic)
 resetBtn.addEventListener("click", () => {
