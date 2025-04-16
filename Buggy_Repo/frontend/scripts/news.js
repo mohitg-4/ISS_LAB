@@ -64,5 +64,26 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Initial load of news
+    loadNews();
+    
+    // Search input listener
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            loadNews(e.target.value, document.getElementById('sourceSelect')?.value || 'all', true);
+        });
+    }
+    
+    // Source selection listener
+    const sourceSelect = document.getElementById('sourceSelect');
+    if (sourceSelect) {
+        sourceSelect.addEventListener('change', (e) => {
+            loadNews(document.getElementById('searchInput')?.value || '', e.target.value, true);
+        });
+    }
+});
 
-loadNews();
+//added event listerners so that the loadnews functions works properly
+
