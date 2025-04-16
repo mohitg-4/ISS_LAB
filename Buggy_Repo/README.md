@@ -26,7 +26,11 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Mohit Ganne: 2024117012
+- Ayush Daga: 2024101052
+- Vikesh Kansal: 2024101126
+- Devi Subramaniam Anivarth Varma Penumetcha: 2024111006
+- Vedavyas: 2024101025
 
 ### Table to keep track
 
