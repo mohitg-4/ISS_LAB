@@ -52,7 +52,7 @@
 | 18  |changed encoding to utf-8 in index.html     | Ayush               |  Ayush            |
 | 19  |added baseURL to profile.js               | Ayush         | Ayush        |
 | 20  |made the question choice random in quiz.py, changed the datastructure for the submit answer to a pydantic model                                          |Vikesh               |Vikesh               |
-| 21  |                                          |               |              |
+| 21  |added the nav to analytics.html                                          |Vikesh               |Vikesh              |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
