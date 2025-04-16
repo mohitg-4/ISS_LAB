@@ -15,6 +15,34 @@ const attemptList = document.getElementById("attemptList");
 const attemptCount = document.getElementById("attemptCount");
 const searchInput = document.getElementById("search");
 
+function resetGameState() {
+  score = 0;
+  gameOver = false;
+  attemptHistory = [];
+  currentQuestion = null; // Optional but cleaner
+  feedback.textContent = "";
+  form.innerHTML = ""; // Clear existing question/answers
+  updateScoreDisplay();
+  updateAttempts();
+  resetBtn.classList.add("hidden");
+  loadQuestion(); // Load a fresh question
+}
+
+// Before (inline logic)
+resetBtn.addEventListener("click", () => {
+  score = 0;
+  gameOver = false;
+  attemptHistory = [];
+  updateScoreDisplay();
+  updateAttempts();
+  resetBtn.classList.add("hidden");
+  loadQuestion();
+});
+
+// After (using the dedicated function)
+resetBtn.addEventListener("click", resetGameState);
+
+
 function updateScoreDisplay() {
   scoreDisplay.textContent = `Score: ${score} | High Score: ${highScore}`;
 }
