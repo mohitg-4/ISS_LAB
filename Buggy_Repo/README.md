@@ -35,12 +35,12 @@
 | 1   | Style.css is not filled                  |         Narain|  Whole Team  |
 | 2   | Used Post instead of Delete in L30 of items.js  |    Anivarth   |  Anivarth    |
 | 3   | fixed from application/html to application/json|  Mohit             | Mohit             |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
+| 4   | added event listeners to news.js         | Anivarth              | Anivarth             |
+| 5   | added container to items.html and added quiz to all html files| Ayush               |Ayush         |
+| 6   | added the user route in main.py                                         |Vikesh               |Vikesh              |
+| 7   |  removed home.js becasue it was usefull                                     |  Anivarth             | Anivarth             |
+| 8   | added the image in the return JSON response in analytics.py and removed the values already in the users list in analytics.py                                         |Vikesh               |Vikesh              |
+| 9   |changes style/profile.js to scripts/profile.js in profile.html|Ayush               |Ayush           |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |

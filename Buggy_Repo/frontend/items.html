@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,15 +6,32 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="items.html">Items</a>
-    <a href="profile.html">Profile</a>
-    <a href="analytics.html">Analytics</a>
-    <a href="news.html">News</a>
-  </nav>
-  <!-- fuck I think I deleted a container, god help me-->
+  <div class="Nav">
+    <nav>
+      <!-- Excited for the new Mission Impossible movie ? -->
+      <a id="aa"  href="index.html">Home</a>
+      <a href="items.html">Items</a>
+      <a href="profile.html">Profile</a>
+      <a href="analytics.html">Analytics</a>
+      <a href="news.html">News</a>
+      <a id="b" href="quiz.html">Quiz</a>
+    </nav>
+  </div>
+  <div class="container">
+    <!-- Please suggest some good music, I am tired of my playlist -->
+     <br>
+    <p id="userCounts">Total items: 0</p>
+    <input type="text" id="search" placeholder="Search items..." />
+    <h1> 📦 Manage Items</h1>
+    <form id="userForm">
+      <input type="text" id="itemname" placeholder="Item Name" required />
+      <input type="text" id="description" placeholder="Description" required />
+      <button type="submit">Add Items</button>
+    </form>
+    <ul id="userList"></ul>
+  </div>
 
   <script src="scripts/items.js"></script>
 </body>
 </html>
+```
