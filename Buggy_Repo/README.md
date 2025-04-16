@@ -35,8 +35,8 @@
 | 1   | Style.css is not filled                  |         Narain|  Whole Team  |
 | 2   | Used Post instead of Delete in L30 
         of items.js                              |    Anivarth   |  Anivarth    |
-| 3   | fixed from application/html to application|              |             |
-| 4   | added event listeners to news.js         |   Anivarth    |  Anivarth    |
+| 3   | fixed from application/html to application|               |              |
+| 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
