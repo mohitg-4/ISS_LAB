@@ -68,5 +68,4 @@ async def get_analytics():
     
     return JSONResponse({
         "stats": stats
-        , "image": f"data:image/png;base64,{image_base64}"
     })
