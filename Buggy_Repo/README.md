@@ -39,7 +39,7 @@
 | 5   | added container to items.html and added quiz to all html files| Ayush               |Ayush         |
 | 6   | added the user route in main.py                                         |Vikesh               |Vikesh              |
 | 7   |  removed home.js becasue it was usefull                                     |  Anivarth             | Anivarth             |
-| 8   |                                          |               |              |
+| 8   | added the image in the return JSON response in analytics.py and removed the values already in the users list in analytics.py                                         |Vikesh               |Vikesh              |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
