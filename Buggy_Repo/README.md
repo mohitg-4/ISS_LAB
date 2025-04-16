@@ -46,10 +46,12 @@
 | 12  |Changed data type for name from int to str       |Mohit               |Mohit              |
 | 13  |Added a resetgame function to quiz.js                                          |Mohit               |Mohit              |
 | 14  |fixed names and usernames to name and username in analytics.py                                         |Vikesh               |Vikesh              |
-| 15  |                                          |               |              |
+| 15  |     changed multiple post to get in user.py| Vedavyas              |     Vedavyas         |
 | 16  |    removed duplicate router.post in items.py                                      |   Anivarth            |    Anivarth       |
 | 17  |   changed router from empty dictionary to APIRouter()                                        | Anivarth              | Anivarth             |
 | 18  |changed encoding to utf-8 in index.html     | Ayush               |  Ayush            |
+| 19  |added baseURL to profile.js               | Ayush         | Ayush        |
+| 20  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |made the question choice random in quiz.py, changed the datastructure for the submit answer to a pydantic model                                          |Vikesh               |Vikesh               |
 | 21  |                                          |               |              |
