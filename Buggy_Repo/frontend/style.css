@@ -1,2 +1,107 @@
-Aah I was too lazy to implement this
-You can do it
+:root {
+    --nav-gap: 3.5%;
+    --nav-margin: 28%;
+  }
+  
+  .Nav {
+      background-color: rgba(78, 78, 206, 0.75);
+      height: 30px;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .container {
+      margin-left: 40px;
+  }
+  
+  nav {
+      display: flex;
+      gap: var(--nav-gap);
+  }
+  
+  nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+      color: rgb(255, 255, 200);
+      transform: scale(1.1);
+  }
+  
+  #aa {
+      margin-left: var(--nav-margin);
+  }
+  
+  #b {
+      margin-right: var(--nav-margin);
+  }
+  
+  input {
+      height: 30px;
+      margin-right: 10px;
+  }
+  
+  button {
+      color: white;
+      background-color: rgba(78, 78, 206, 0.8);
+      height: 35px;
+      border-radius: 7px;
+      border: none;
+      padding: 5px;
+      width: 85px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+      background-color: rgba(78, 78, 206, 1);
+  }
+  
+  /* Responsive spacing for different screen sizes */
+  @media (max-width: 1200px) {
+      :root {
+          --nav-gap: 3%;
+          --nav-margin: 15%;
+      }
+      
+      nav a {
+          font-size: 18px;
+      }
+  }
+  
+  @media (max-width: 992px) {
+      :root {
+          --nav-gap: 2.5%;
+          --nav-margin: 15%;
+      }
+      
+      nav a {
+          font-size: 16px;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      :root {
+          --nav-gap: 2%;
+          --nav-margin: 10%;
+      }
+      
+      nav a {
+          font-size: 14px;
+      }
+  }
+  
+  @media (max-width: 576px) {
+      :root {
+          --nav-gap: 1.5%;
+          --nav-margin: 5%;
+      }
+      
+      nav a {
+          font-size: 12px;
+      }
+  }

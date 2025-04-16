@@ -42,7 +42,7 @@
 | 8   | added the image in the return JSON response in analytics.py and removed the values already in the users list in analytics.py                                         |Vikesh               |Vikesh              |
 | 9   |changed style/profile.js to scripts/profile.js in profile.html|Ayush               |Ayush           |
 | 10  |added BaseModel to models.py                           |Mohit               |Mohit              |
-| 11  |                                          |               |              |
+| 11  |added styles.css                                    | Vedavyas              |Vedavyas           |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
 | 14  |                                          |               |              |
