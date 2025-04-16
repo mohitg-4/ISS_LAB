@@ -56,7 +56,7 @@ async def get_question():
         "options": question["options"]
     }
 
-@router.post("/answer")
+@router.get("/answer")
 async def submit_answer(data: QuizAnswer):
     question_id = data.id
     answer = data.answer
