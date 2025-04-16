@@ -51,8 +51,6 @@
 | 17  |   changed router from empty dictionary to APIRouter()                                        | Anivarth              | Anivarth             |
 | 18  |changed encoding to utf-8 in index.html     | Ayush               |  Ayush            |
 | 19  |added baseURL to profile.js               | Ayush         | Ayush        |
-| 20  |                                          |               |              |
-| 19  |                                          |               |              |
 | 20  |made the question choice random in quiz.py, changed the datastructure for the submit answer to a pydantic model                                          |Vikesh               |Vikesh               |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
