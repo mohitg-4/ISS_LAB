@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 import random
+from pydantic import BaseModel
 
 router = APIRouter(tags=["quiz"])
 
@@ -39,9 +40,16 @@ questions = [
 
 game_state = {"high_score": 0}
 # god would hate me for not dockerizing this repo
+
+class QuizAnswer(BaseModel):
+    id: int
+    answer: str
+    score: int
+
+
 @router.get("/question")
 async def get_question():
-    question = questions[1]
+    question = random.choice(questions)
     return {
         "id": question["id"],
         "text": question["text"],
@@ -49,15 +57,14 @@ async def get_question():
     }
 
 @router.post("/answer")
-async def submit_answer(data: dict):
-    question_id = data.get("id")
-    answer = data.get("answer")
-    score = data.get("score", 0)
+async def submit_answer(data: QuizAnswer):
+    question_id = data.id
+    answer = data.answer
+    score = data.score
 
     question = next((q for q in questions if q["id"] == question_id), None)
     if not question:
-        return {"error": "Invalid question ID"}
-
+        return {"error": "Question not found"}
     is_correct = answer == question["correct"]
     if is_correct:
         score += 10
