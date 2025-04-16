@@ -48,7 +48,7 @@
 | 14  |                                          |               |              |
 | 15  |                                          |               |              |
 | 16  |    removed duplicate router.post in items.py                                      |   Anivarth            |    Anivarth       |
-| 17  |                                          |               |              |
+| 17  |   changed router from empty dictionary to APIRouter()                                        | Anivarth              | Anivarth             |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
