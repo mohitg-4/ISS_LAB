@@ -45,7 +45,7 @@
 | 11  |added styles.css                                    | Vedavyas              |Vedavyas           |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
-| 14  |Used UTF-8 encoding in index.html         |  Ayush             | Ayush             |
+| 14  |                                          |               |              |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
 | 17  |                                          |               |              |
