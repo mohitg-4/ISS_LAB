@@ -36,7 +36,7 @@
 | 2   | Used Post instead of Delete in L30 of items.js  |    Anivarth   |  Anivarth    |
 | 3   | fixed from application/html to application/json|  Mohit             | Mohit             |
 | 4   | added event listeners to news.js         | Anivarth              | Anivarth             |
-| 5   |                                          |               |              |
+| 5   | added container to items.html and added quiz to all html files| Ayush               |Ayush         |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
