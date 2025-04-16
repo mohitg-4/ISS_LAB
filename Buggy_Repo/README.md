@@ -43,9 +43,9 @@
 | 9   |changed style/profile.js to scripts/profile.js in profile.html|Ayush               |Ayush           |
 | 10  |added BaseModel to models.py                           |Mohit               |Mohit              |
 | 11  |added styles.css                                    | Vedavyas              |Vedavyas           |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
+| 12  |Changed data type for name from int to str       |Mohit               |Mohit              |
+| 13  |Added a resetgame function to quiz.js                                          |Mohit               |Mohit              |
+| 14  |changed encoding to utf-8 in index.html| Ayush              |Ayush              |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
 | 17  |                                          |               |              |
