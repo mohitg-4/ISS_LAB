@@ -38,7 +38,7 @@
 | 4   | added event listeners to news.js         | Anivarth              | Anivarth             |
 | 5   | added container to items.html and added quiz to all html files| Ayush               |Ayush         |
 | 6   | added the user route in main.py                                         |Vikesh               |Vikesh              |
-| 7   |                                          |               |              |
+| 7   |  removed home.js becasue it was usefull                                     |  Anivarth             | Anivarth             |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
