@@ -23,10 +23,34 @@ async function loadItems(searchTerm = "") {
   });
 }
 
+// async function deleteItem(id) {
+//   await fetch(`${baseURL}/items/${id}`, { method: "POST" });
+//   loadItems(document.getElementById("search").value); 
+// }
+
 async function deleteItem(id) {
-  await fetch(`${baseURL}/items/${id}`, { method: "POST" });
-  loadItems(document.getElementById("search").value); 
+  try {
+    const response = await fetch(`${baseURL}/items/${id}`, {
+      method: "DELETE" // Use DELETE method
+    });
+    if (!response.ok) {
+      // Handle potential errors from the server (e.g., item not found)
+      console.error(`Error deleting item ${id}: ${response.statusText}`);
+      // Optionally, inform the user
+      // alert(`Failed to delete item: ${response.statusText}`);
+      return; // Stop if deletion failed
+    }
+    // Reload items only if deletion was successful
+    loadItems(document.getElementById("search").value);
+  } catch (error) {
+    console.error("Network error during deletion:", error);
+    // Optionally, inform the user about network issues
+    // alert("Network error. Could not delete item.");
+  }
 }
+// new deleteItem function , which adds try catch functionality and Uses DELETE Crud instead of POST crud
+
+
 
 document.getElementById("search").addEventListener("input", (e) => {
   loadItems(e.target.value); 
