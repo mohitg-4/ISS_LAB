@@ -44,10 +44,10 @@
 | 10  |added BaseModel to models.py                           |Mohit               |Mohit              |
 | 11  |added styles.css                                    | Vedavyas              |Vedavyas           |
 | 12  |Changed data type for name from int to str       |Mohit               |Mohit              |
-| 13  |Added a resetgamefunction in the quiz.js                                          |Mohit               |Mohit              |
+| 13  |Added a resetgame function to quiz.js                                          |Mohit               |Mohit              |
 | 14  |                                          |               |              |
 | 15  |                                          |               |              |
-| 16  |                                          |               |              |
+| 16  |    removed duplicate router.post in items.py                                      |   Anivarth            |    Anivarth       |
 | 17  |                                          |               |              |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
