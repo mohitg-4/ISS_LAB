@@ -26,7 +26,7 @@ async def get_analytics():
     async for item in items_collection.find():
         items.append(item)
     # damm this is the last lab
-    users = ["A1","B2","C3"]
+    users = []
     async for user in users_collection.find():
         users.append(user)
     
@@ -68,4 +68,5 @@ async def get_analytics():
     
     return JSONResponse({
         "stats": stats
+        , "image": f"data:image/png;base64,{image_base64}"
     })
