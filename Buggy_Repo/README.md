@@ -40,7 +40,7 @@
 | 6   | added the user route in main.py                                         |Vikesh               |Vikesh              |
 | 7   |  removed home.js becasue it was usefull                                     |  Anivarth             | Anivarth             |
 | 8   | added the image in the return JSON response in analytics.py and removed the values already in the users list in analytics.py                                         |Vikesh               |Vikesh              |
-| 9   |                                          |               |              |
+| 9   |changes style/profile.js to scripts/profile.js in profile.html|Ayush               |Ayush           |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
