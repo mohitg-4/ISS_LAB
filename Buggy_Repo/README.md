@@ -50,7 +50,7 @@
 | 16  |    removed duplicate router.post in items.py                                      |   Anivarth            |    Anivarth       |
 | 17  |   changed router from empty dictionary to APIRouter()                                        | Anivarth              | Anivarth             |
 | 18  |changed encoding to utf-8 in index.html     | Ayush               |  Ayush            |
-| 19  |                                          |               |              |
+| 19  |added baseURL to profile.js               | Ayush         | Ayush        |
 | 20  |                                          |               |              |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
