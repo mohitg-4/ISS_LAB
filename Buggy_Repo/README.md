@@ -37,7 +37,7 @@
         of items.js                              |    Anivarth   |  Anivarth    |
 | 3   | fixed from application/html to application/json|  Mohit             | Mohit             |
 | 4   |                                          |               |              |
-| 5   |                                          |               |              |
+| 5   | added missing container to items.html and added quiz to all the html|Ayush          | Ayush        |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
