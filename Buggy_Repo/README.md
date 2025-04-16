@@ -45,7 +45,7 @@
 | 11  |added styles.css                                    | Vedavyas              |Vedavyas           |
 | 12  |Changed data type for name from int to str       |Mohit               |Mohit              |
 | 13  |Added a resetgame function to quiz.js                                          |Mohit               |Mohit              |
-| 14  |fixed names and usernames to name and username in analytics.py                                         |               |              |
+| 14  |fixed names and usernames to name and username in analytics.py                                         |Vikesh               |Vikesh              |
 | 15  |                                          |               |              |
 | 16  |    removed duplicate router.post in items.py                                      |   Anivarth            |    Anivarth       |
 | 17  |   changed router from empty dictionary to APIRouter()                                        | Anivarth              | Anivarth             |
